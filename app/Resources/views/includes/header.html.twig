@@ -1,0 +1,26 @@
+{% set sessionLocale = app.request.session.get('_locale')|default('es') %}
+<header id="header">
+    <h1 id="logo">{{ 'project.section.title'|trans }}</h1>
+    <select id="mobile-locale">
+        <option value="{{ url('changeLanguage', {'locale': 'es'}) }}" {% if sessionLocale == 'es' %}selected{% endif %}>ES</option>
+        <option value="{{ url('changeLanguage', {'locale': 'en'}) }}" {% if sessionLocale == 'en' %}selected{% endif %}>EN</option>
+        <option value="{{ url('changeLanguage', {'locale': 'fr'}) }}" {% if sessionLocale == 'fr' %}selected{% endif %}>FR</option>
+        <option value="{{ url('changeLanguage', {'locale': 'pt'}) }}" {% if sessionLocale == 'pt' %}selected{% endif %}>PT</option>
+    </select>
+    <nav id="nav">
+        <ul>
+            <li><a href="#intro">{{ 'intro.section.title'|trans }}</a></li>
+            <li><a href="#what-is-it">{{ 'what-is-it.section.title'|trans }}</a></li>
+            <li><a href="#how-work">{{ 'how-work.section.title'|trans }}</a></li>
+            <li><a href="#description">{{ 'description.section.title'|trans }}</a></li>
+            <li>
+                <select>
+                    <option value="{{ url('changeLanguage', {'locale': 'es'}) }}" {% if sessionLocale == 'es' %}selected{% endif %}>ES</option>
+                    <option value="{{ url('changeLanguage', {'locale': 'en'}) }}" {% if sessionLocale == 'en' %}selected{% endif %}>EN</option>
+                    <option value="{{ url('changeLanguage', {'locale': 'fr'}) }}" {% if sessionLocale == 'fr' %}selected{% endif %}>FR</option>
+                    <option value="{{ url('changeLanguage', {'locale': 'pt'}) }}" {% if sessionLocale == 'pt' %}selected{% endif %}>PT</option>
+                </select>
+            </li>
+        </ul>
+    </nav>
+</header>

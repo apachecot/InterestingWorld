@@ -1,0 +1,22 @@
+project.section.title: "Interesting World"
+button.next: Next
+
+### SEO SECTION ###
+seo.description: Interesting World is an application with which you can share or discover interesting places of your city or the city you are visiting.
+seo.keywords: Points of interest, places, nice, travel, find, search, originals, photos, images, android, interesting world
+### INTRO SECTION ###
+intro.section.title: "Intro"
+intro.section.text1: "<p>Welcome to <strong>Interesting World</strong> the application to discover the most hidden places. Download the application on <a href='https://play.google.com/store/apps/details?id=world.interesting.panche.interestingworld'>Google Play</a> and share the most special places of each city.</p>"
+intro.section.text2: "<p>Currently the version is in Beta phase of tests, you can see a demonstration video of how the application behaves.</p>"
+
+### WHAT IS IT SECTION ###
+what-is-it.section.title: "What is it?"
+what-is-it.section.text1: "<p><strong>Interesting World</strong> is an application with which you can share or discover interesting places of your city or the city you are visiting.</p>"
+
+### HOW WORK SECTION ###
+how-work.section.title: "How does it work?"
+how-work.section.text1: "<p>Find a place, take a picture and share with the world that place that you like. Find new places proposed by other users and vote them, take your picture of the place and share it with your friends.</p>"
+
+### DESCRIPTION SECTION ###
+description.section.title: Interesting World
+description.section.text1: "<p>Interesting World is exclusive for the android platform, if you have a smartphone with such operating system, do not hesitate to try it. A travel guide of the same users for the users, forget about certified guides and look for the place that most catches your attention.</p>"

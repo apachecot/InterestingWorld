@@ -1,0 +1,12 @@
+# Learn more about services, parameters and containers at
+# https://symfony.com/doc/current/service_container.html
+parameters:
+    #parameter_name: value
+
+services:
+    locale.listener:
+        class: AppBundle\Listener\LocaleEvent
+        arguments:
+            $defaultLocale: '%default_locale%'
+        tags:
+            - { name: kernel.event_subscriber }

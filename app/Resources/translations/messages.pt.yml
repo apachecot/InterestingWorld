@@ -1,0 +1,23 @@
+project.section.title: "Interesting World"
+button.next: Seguinte
+
+### SEO SECTION ###
+seo.description: Interesting World é um aplicativo que permite compartilhar e descobrir lugares interessantes em sua cidade ou cidade que você está visitando.
+seo.keywords: Os pontos de interesse, lugares, agradável, curso, achado, busca, original, fotos, android, interesting world
+
+### INTRO SECTION ###
+intro.section.title: "Intro"
+intro.section.text1: "<p>Bem-vindo ao <strong>Interesting World</strong> aplicativo que descobrir os lugares mais escondidos. Faça o download do aplicativo no <a href='https://play.google.com/store/apps/details?id=world.interesting.panche.interestingworld'>Google Play</a> e compartilhar enquanto você descobrir, os lugares mais especiais em cada cidade.</p>"
+intro.section.text2: "<p>Versão está atualmente em testes beta, você pode ver um vídeo de demonstração de como o aplicativo se comporta.</p>"
+
+### WHAT IS IT SECTION ###
+what-is-it.section.title: "O que é?"
+what-is-it.section.text1: "<p><strong>Interesting World</strong> é um aplicativo que permite compartilhar e descobrir lugares interessantes em sua cidade ou cidade que você está visitando.</p>"
+
+### HOW WORK SECTION ###
+how-work.section.title: "Como funciona?"
+how-work.section.text1: "<p>Encontrar um lugar, tirar uma foto e compartilhar com o mundo o lugar que você gosta. Encontrar novos locais propostos por outros usuários e votalos, tirar uma foto sua do lugar e compartilhá-lo com seus amigos.</p>"
+
+### DESCRIPTION SECTION ###
+description.section.title: Interesting World
+description.section.text1: "<p>Interesting World é exclusivamente para a plataforma Android, se você tem um smartphone com este sistema operacional, não hesite em experimentá-lo. Um guia de viagem dos mesmos usuários para usuários, esqueça guias certificados e procurando o lugar que chama a sua atenção.</p>"

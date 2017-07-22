@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>{% block title %}{{ 'project.section.title'|trans }}{% endblock %}</title>
+
+        <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1"/>
+        <meta name="description" content="{% block description %}{{ 'seo.description'|trans }}{% endblock %}"/>
+        <meta name="keywords" content="{% block keywords %}{{ 'seo.keywords'|trans }}{% endblock %}"/>
+
+        {% block styles %}
+        {% endblock %}
+    </head>
+    <body>
+
+    {% block header %}
+        {{ include(':includes:header.html.twig') }}
+    {% endblock %}
+
+    {% block body %}{% endblock %}
+        {% block footer %}
+            <footer id="footer">
+                <ul class="menu">
+                    <li>{{ 'project.section.title'|trans }} {{ 'Y'|date('Y') }}</li>
+                    <li>
+                        Design: <a href="https://html5up.net">HTML5 UP</a>
+                    </li>
+                </ul>
+            </footer>
+        {% endblock %}
+        {% block javascripts %}
+        {% endblock %}
+    </body>
+</html>
